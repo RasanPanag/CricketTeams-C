@@ -1,7 +1,7 @@
 # Creator: Rasandeep Singh Panag
 
 ## General Concept;
-There are two files in this repository. One file will show you how a program can enter into deadlocks and other file will break the deadlock
+There are two file in this repository. One file will show you how a program can enter into deadlocks and other file will break the deadlock
 
 ## CricketTeams.c
 - This files based on scenario that there are five cricket teams numbered zero to four and there are 4 sets of three wickets.   
@@ -12,5 +12,5 @@ There are two files in this repository. One file will show you how a program can
 **This program use POSIX threads and can exhibit both potential and actual deadlocks**
 
 ## Deadlocks.c
-This file is based on the same scenario but, it has four teams will attempt to practice at the same time. The new implementation uses the semaphore "num_can_practice" to limit the number of teams who can practice are same time. This semaphore is initialized to four, one less than the number of philosophers.
+This file is based on the same scenario but, it has four teams will attempt to practice at the same time. The new implementation uses the semaphore "num_can_practice" to limit the number of teams who can practice at same time. This semaphore is initialized to four, one less than the number of philosophers.   
 **Also, this file is created to solve the problem of actual or potential deadlocks.**
